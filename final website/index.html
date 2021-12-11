@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Costa Cravings</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel = "stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+      <div class="container">
+        <a class="navbar-brand" href="#">Costa Cravings</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cart.html">Cart<span class=""></span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Details</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#menu">Menu</a>
+                <a class="dropdown-item" href="#promo">Promos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#contact">Contact Us</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/bento cake.png" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+               
+                </div>
+              </div>
+              <div class="carousel-item"><img class="d-block w-100" src= "img/cookis.png" alt="Second slide">
+                
+                <div class="carousel-caption d-none d-md-block">
+          
+                </div>
+              </div>
+              <div class="carousel-item" id="home">
+                <img class="d-block w-100" src= "img/drinks.png" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+      <h2 class="text-center" id="promo">PROMO FOR THE MONTH&nbsp;&nbsp;</h2>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="img/sunny.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Buy 2 get 1 free&nbsp;</h5>
+                <p>Buy any two procduct with a total worth of 500 and get free one bento cake.</p>
+                <a href="#openModal-about" class="btn btn-primary">CLICK HERE TO CLAIM</a>
+
+                <!--modals-->
+                  <div id="openModal-about" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <img src="img/grats.jpg" alt="grats" width="760px" height="600px">
+                      </div>
+                  </div>
+                
+              </div>
+            </li>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="img/crinkle_ni_zai_100x125.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Soft Opening Promo&nbsp;</h5>
+                <p>Show as a screeanshot of the voucher and get 5% off with a minimun spend of 500 pesos.</p>
+
+                <a href="#openModal-about" class="btn btn-primary">CLICK HERE TO CLAIM</a>
+
+                <!--modals-->
+                  <div id="openModal-about" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <img src="img/grats.jpg" alt="grats" width="760px" height="600px">
+                      </div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled"> 
+            <li class="media">
+              <img class="mr-3" src="img/cookie ni zai.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Buy one box and get 10% of on the next order&nbsp; &nbsp;</h5>
+                <p>Buy one box of cookies and get 10% off in your next order.</p>
+                <a href="#openModal-about" class="btn btn-primary">CLICK HERE TO CLAIM</a>
+
+                <!--modals-->
+                  <div id="openModal-about" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <img src="img/grats.jpg" alt="grats" width="760px" height="600px">
+                      </div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+    <br>
+    <hr>
+    <h2 class="text-center" id="menu"> MENU &nbsp;</h2>
+    <hr>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <div class="card-body"><img class="card-img-top" src="img/Soft & Chewy S'mores Cookies - Best Desserts.jfif" alt="Card image cap">
+              <h5 class="card-title">COOKIES&nbsp;</h5>
+              <p class="card-text">Known for being one of the best freshly home baked cookies in town!</p>
+              <button type="button2" class="btn btn-primary" onclick="alert(' SORRY WE ARE CURRENTLY UNAVAILABLE')">CLICK HERE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card"><img class="card-img-top" src= "img/Cake.jfif" alt="Card image cap">
+            
+            <div class="card-body">
+              <h5 class="card-title">MINIMALIST CAKE&nbsp;</h5>
+              <p class="card-text">Taste the quality in every bite which makes it the perfect gift for your loved ones!</p>
+              <button type="button2" class="btn btn-primary" onclick="alert(' SORRY WE ARE CURRENTLY UNAVAILABLE')">CLICK HERE</button>
+ 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="img/brash coffee.jfif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">DRINKS &nbsp;</h5>
+              <p class="card-text">We are offering you a wide variety of drinks!</p>
+             <button type="button2" class="btn btn-primary" onclick="alert(' SORRY WE ARE CURRENTLY UNAVAILABLE')">CLICK HERE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <hr>
+    <div class="container text-white bg-dark p-4">
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-8 col-lg-7">
+          <div class="row text-center">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <address>
+                  <strong>Location&nbsp;</strong><br>
+        Malinta, Valenzuela City
+                  </address> 
+              </ul>
+            </div> 
+              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <address>
+                  <abbr title="Phone" id="contact">Contact Number</abbr> <br>
+                  (123) 456-7899
+              &nbsp;
+                  </address>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <address>
+                  <strong>Email Addres&nbsp;</strong><br>
+                    <a href="mailto:#">costacravings@gmail.com</a>
+                  </address>
+              </ul>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div> 
+<div id="disqus_thread"></div>
+<script>
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-bmrglvz-github-io-bia.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+     
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script id="dsq-count-scr" src="//https-bmrglvz-github-io-bia.disqus.com/count.js" async>
+      </script>
+  </body>
+</html>
